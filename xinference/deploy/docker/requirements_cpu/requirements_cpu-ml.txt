@@ -1,12 +1,12 @@
-torch>=2.0.0
+torch>=2.13.0
 torchaudio
 sentencepiece
-sentence-transformers>=3.1.0,<6
+sentence-transformers>=6.2.0,<7
 # transformers 4.53.2 and below globally register OTEL providers on import,
 # which conflicts with Xinference OTEL initialization.
-transformers>=4.53.3
+transformers>=5.22.1
 transformers_stream_generator
-accelerate>=0.28.0
+accelerate>=1.15.0
 bitsandbytes
 tiktoken>=0.6.0
 autoawq!=0.2.6

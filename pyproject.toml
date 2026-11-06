@@ -145,7 +145,7 @@ all = [
     "xinference[router]",
 ]
 intel = [
-    "torch==2.1.0a0",
+    "torch==2.13.0",
     "intel_extension_for_pytorch==2.1.10+xpu",
 ]
 llama_cpp = [
@@ -198,7 +198,7 @@ mlx = [
     "tomli",
 ]
 embedding = [
-    "sentence-transformers>=3.1.0,<6",
+    "sentence-transformers>=3.1.0,<7",
     "FlagEmbedding",
     "datasets>=3.4.0",  # see GH#3934
 ]
